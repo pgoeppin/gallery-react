@@ -29,8 +29,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.footer {
-  position: fixed;
-  bottom:0;
+footer {
   background-color: #2c2c2c;
-} 
+}
+@media only screen and (min-width: 1921px) {
+  footer {
+    position: fixed;
+    bottom:0;
+  }   
+}

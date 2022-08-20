@@ -1,6 +1,6 @@
 const Header = (props) => {
     return (
-        <div className="text-center">
+        <div className="header p-5 text-center">
             <h1>{props.titulo}</h1>
         </div>
     );
